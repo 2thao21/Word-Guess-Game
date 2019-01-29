@@ -1,0 +1,49 @@
+body{
+    /* background-image: url("https://partyfixx.co/wp-content/uploads/2018/04/2019-NBA-All-Star-Weekend-Charlotte-North-Carolina-All-Star-Event-01.jpg");
+    size: initial; */
+    background-color: lightseagreen;
+    border: 15px solid purple;
+
+}
+
+#game-title{
+    text-align: center;
+}
+
+#west-east{
+    text-align: center;
+}
+h1, h4, h5{
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    text-align: center;
+    font-style: italic;
+}
+
+#game-panel{
+    border-style: dotted;
+    border-color: purple;
+    
+
+}
+
+.row{
+    text-align: center;
+}
+
+h6{
+    text-align: center;
+}
+#wins, #guessName, #guessRemaining, #lettersGuessed{
+    text-align: center;
+} 
+
+/* .game-section-title{
+    text-align: center;
+} */
+
+/* div{
+    text-align: center;
+} */

@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word Guess Game!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+</head>
+<body>
+    <div class id = "game-title">
+        
+        <h1>2019 Nba All-Star Starters</h1>
+
+    </div>
+
+    <div class= "row mb-5" id = "west-east" >
+        <div class = "col-md-5">
+            <h4>West All-Stars</h4>
+            <div></div>
+        </div>
+        <div class = "col-md-2">
+                <h6>Charlotte, North Carolina</h6>
+            </div>
+        <div class = "col-md-5">
+            <h4>East All-Stars</h4>
+            <div></div>
+        </div>
+        </div>  
+    </div>
+    
+    <div class = empty-container>
+        <div class = "row mb-5"></div>
+        <div class = "row mb-5"></div>
+        <div class = "row mb-3"></div>
+
+    </div>
+
+    <div class = container id = "game-panel">
+        <div class = "row">
+            <div class = col-md-4>
+                <h5>Who is this?</h5>
+                    <div id = imagedPlayer></div>
+            </div>
+
+            <div class = col-md-8>
+                    <h5>Game</h5>
+                    <p>Press any key to start!</p>
+                    <p>Please guess who the imaged player is.</p>
+                    <div class = "row mb-4">
+                        <h6 class = "game-section-title">Wins: </h6>
+                        <div id = "wins"></div>
+                    </div>
+                    <div class = "row mb-4">
+                        <h6 class = "game-section-title">Player Name: </h6>
+                        <div id = "playerName"></div>
+                    </div>
+                    <div class = "row mb-4">
+                        <h6 class = "game-section-title">Guesses Remaining: </h6>
+                        <div id = "guessesRemaining"></div>
+                    </div>
+                    <div class = "row mb-4">
+                        <h6 class = "game-section-title">Letters guessed: </h6>
+                        <div id = "lettersGuessed"></div>
+                    </div>
+                    <div class = "row mb-4">
+                            <h6 class = "game-section-title">Status: </h6>
+                            <div id = "status"></div>
+                        </div>
+            </div>
+
+            <!-- <div class = col-md-4>
+                <h5>East, who is this?</h5>
+                    <div id = "imaged-player"></div>
+                
+            </div> -->
+        </div>
+    </div>
+
+
+    
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
